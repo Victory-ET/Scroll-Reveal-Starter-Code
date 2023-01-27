@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* Landing Section */
+
+.landing {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__right__content{
+  @apply w-4/5 rounded-lg pr-10;
+  perspective: 700px;
+}
+
+.landing__right__content img{
+  @apply rounded-3xl border-4 border-blue-600;
+  transform: rotateY(-20deg);
+}
+
+.landing__left__content__title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.landing__left__content{
+  @apply w-4/5;
+}
+
+.landing__left__content__title span{
+  @apply px-2 py-1;
+  color: #000;
+  background-color: rgb(255, 208, 0);
+}
