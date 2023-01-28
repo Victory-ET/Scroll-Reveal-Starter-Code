@@ -5,13 +5,13 @@ function Nav() {
   const [open, isOpen] = useState(false);
   return (
     <div>
-      <nav className=" shadow-lg fixed w-full z-10 backdrop-blur-md">
+      <nav className=" shadow-lg fixed w-full z-20 backdrop-blur-md">
         <span className="w-full">
           <div className="flex items-center h-20 w-full">
             <div className="flex items-center items mx-20 justify-between w-full flex-row">
               <span className="flex items-center justify-center flex-shrink-0">
                 <h1 className=" font-bold cursor-pointer text-xl">
-                  HAR<span className=" text-blue-400">-Builders</span>
+                  HAI<span className=" text-blue-400">-Builders</span>
                 </h1>
               </span>
               <span className="hidden md:block">
