@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="About__container">
+    <div className="About__container" id="About">
       <h1 className="About__title">About Us</h1>
       <div className="flex justify-center items-start">
         <p className="About__description">

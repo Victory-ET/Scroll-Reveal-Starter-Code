@@ -3,7 +3,7 @@ import React from "react";
 
 function Landing() {
   return (
-    <div className="landing">
+    <div className="landing" id="Home">
       <div className="landing__left">
         <div className="landing__left__content">
           <h1 className="landing__left__content__title">

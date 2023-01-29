@@ -23,19 +23,19 @@ function Nav() {
                     Home
                   </a>
                   <a
-                    href="#Home"
+                    href="#About"
                     className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About Us
                   </a>
                   <a
-                    href="#Home"
+                    href="#Services"
                     className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Our Services
                   </a>
                   <a
-                    href="#Home"
+                    href="#Testimonial"
                     className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Testimonial
